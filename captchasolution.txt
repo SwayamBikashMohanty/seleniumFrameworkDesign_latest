@@ -1,0 +1,2 @@
+String str = JOptionPane.showInputDialog("Enter your captcha");
+driver.findElement(By.xpath("//*[@id=\"captcha\"]")).sendKeys(str);
